@@ -7,15 +7,14 @@ immediately before it.
 ## Install
 
 ```sh
-uuid='downloads-to-dock@sam'
-target="$HOME/.local/share/gnome-shell/extensions/$uuid"
-mkdir -p "$target"
-cp metadata.json extension.js downloads-folder.desktop "$target"
+uuid='downloads-to-dock@shoobyban'
+gnome-extensions pack --force --extra-source=downloads-folder.desktop
+gnome-extensions install --force "$uuid.shell-extension.zip"
 gnome-extensions enable "$uuid"
 ```
 
-Log out and back in if your GNOME Shell session does not load the extension
-immediately. The extension supports GNOME Shell 45 through 49.
+The `install` command registers the extension with the running GNOME Shell
+session before it is enabled. The extension supports GNOME Shell 45 through 49.
 
 ## Behavior
 
