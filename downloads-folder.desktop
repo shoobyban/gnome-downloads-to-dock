@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Downloads
+Comment=Open the Downloads folder
+Exec=sh -c "nautilus --new-window $HOME/Downloads"
+Icon=folder-download-symbolic
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;Utility;FileManager;
+StartupNotify=true
