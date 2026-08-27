@@ -2,5 +2,5 @@
   "uuid": "downloads-to-dock@shoobyban",
   "name": "Downloads to Dock",
   "description": "Adds a Downloads folder launcher to the dock beside the trash.",
-  "shell-version": ["45", "46", "47", "48", "49"]
+  "shell-version": ["45", "46", "47", "48", "49", "50"]
 }

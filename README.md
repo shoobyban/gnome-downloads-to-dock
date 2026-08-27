@@ -14,7 +14,7 @@ gnome-extensions enable "$uuid"
 ```
 
 The `install` command registers the extension with the running GNOME Shell
-session before it is enabled. The extension supports GNOME Shell 45 through 49.
+session before it is enabled. The extension supports GNOME Shell 45 through 50.
 
 ## Behavior
 
